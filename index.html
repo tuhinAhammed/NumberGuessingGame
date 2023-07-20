@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <!-- style.csss linked Here -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="game">
+        <p>Number<br> Guessing Game</p>
+        <div class="inner-game boxOne">
+            <h2> Player One</h2>
+            <h4 class="rules">Enter Your Number Within { 1 - 10 }</h4>
+            <input type="text" class="playerOneName" placeholder="Your Name">
+            <input class="playerOneInput" placeholder="Inter Your Number" type="Password">
+            <input class="playerOneSubmit  submit " type="submit"></input>
+        </div>
+        <div class="inner-game boxTwo">
+            <h2> Player Two</h2>
+            <h4 class="rules">Enter Your Number Within { 1 - 10 }</h4>
+            <input type="text" class="playerTwoName" placeholder="Your Name">
+            <input class="playerTwoInput" placeholder="Guess The Number" type="text">
+            <input class="playerTwoSubmit submit " type="submit"></input> <br>
+            <div class="chanceCount"></div>
+        </div>
+        <div class="innerThreeBox">
+            <div class=" boxThree">
+            
+                <div class="gameOver">Game Over</div>
+                <a class="playAgain" href="index.html">Let's Play Again</a> <br>
+                
+            </div>
+        </div>
+        <div class="result"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
